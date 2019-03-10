@@ -1,0 +1,110 @@
+body {
+    background: #fff;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.9;
+}
+
+#main-nav #logo {
+    display: inline-block;
+    font-size: 38px;
+    float: left;
+    margin-right: 5px;
+    margin-top: -6px;
+}
+
+#main-nav .info {
+    display: inline-block;
+    float: left;
+}
+
+#main-nav .info .title {
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+#home-section {
+    background-image: url(CSS/img/hero-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+/*------------------------------------*/
+/*             PROJECTS               */
+/*------------------------------------*/
+
+/*css image hover effects from Online Tutorials */
+#projects-section .col .imgBox {
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    height: 210px;
+}
+
+#projects-section .col .imgBox img {
+    transition: transform 2s;
+    max-width: 100%;
+}
+
+#projects-section .col:hover .imgBox img,
+#projects-section .col:focus .imgBox img {
+    transform: scale(1.2);
+}
+
+#projects-section .col .details {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    bottom: 24px;
+    right: 30px;
+    background: rgba(0,0,0,0.8);
+    height: 210px;
+    width: 320px;
+    transform: scale(0);
+    transition: transform 1s;
+}
+
+#projects-section .col:hover .details {
+    transform: scale(1);
+}
+
+#projects-section .col .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

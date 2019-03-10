@@ -27,7 +27,7 @@ body {
 }
 
 #home-section {
-    background-image: url(CSS/img/hero-image.jpeg);
+    background-image: url(hero-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

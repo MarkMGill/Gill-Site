@@ -27,7 +27,7 @@ body {
 }
 
 #home-section {
-    background-image: url(CSS/img/DSC_0013.JPG);
+    background-image: url(DSC_0013.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -102,7 +102,7 @@ body {
 /*------------------------------------*/
 
 #services-section {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(CSS/img/hero-image.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(hero-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

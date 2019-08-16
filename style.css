@@ -27,7 +27,7 @@ body {
 }
 
 #home-section {
-    background-image: url(DSC_0013.JPG);
+    background-image: url(CSS/img/DSC_0013.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -91,8 +91,10 @@ body {
 
 #projects-section .col .details .content {
     position: absolute;
+    width: 320px;
+    height: 210px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-20%);
     text-align: center;
     
 }
@@ -102,7 +104,7 @@ body {
 /*------------------------------------*/
 
 #services-section {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(hero-image.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(CSS/img/hero-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -114,9 +116,13 @@ body {
     background-color: #e9ecef;
 }
 
+/*------------------------------------*/
+/*             SERVICES               */
+/*------------------------------------*/
 
-
-
+#services-section ul li {
+    font-size: 20px;
+}
 
 
 

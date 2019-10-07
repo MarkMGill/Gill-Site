@@ -46,7 +46,7 @@
           });
 
 /* Animations on scroll */
-
+/*
     $('.js__wp_1').waypoint(function(direction) {
         $('.js__wp_1').addClass('animated slow bounceInLeft slower delay-1s');
     }, {
@@ -93,4 +93,4 @@
         }, {
             offset: '50%'
         });
-
+*/

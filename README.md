@@ -1,5 +1,5 @@
 # Gill-Site
-A fully responsive landing page intro to me to create a clean, simple landing page introducing myself, what I do, and a section displaying my portfolio projects.
+A fully responsive landing page introduction with a section displaying my portfolio projects, and contact information.
 
 # Technologies Used
 

@@ -42,7 +42,17 @@
 
 /* Small phones to small tablets: from 481px to 600px */
 @media only screen and (max-width: 600px) {
+    #home-section {
+        background-image: url(Computer-sm.jpg);
+    }
     
+    #home-section .dark-overlay {
+        background: rgba(0,0,0, .6);
+    }
+    
+    #services-section {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(hero-image-sm.jpg);
+    }
 
 }
 
